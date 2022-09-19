@@ -1,0 +1,65 @@
+.imgbar1 {
+    margin-top: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
+    opacity: 0.3;
+    outline: none;
+}
+
+.imgbar1:hover {
+    opacity: 1.0;
+    outline: none;
+}
+
+.imgbar2 {
+    margin-bottom: 30px;
+    opacity: 0.3;
+    outline: none;
+}
+
+.imgbar2:hover {
+    opacity: 1.0;
+    outline: none;
+}
+
+#divc {
+    background: #000;
+    width: 810px;
+    height: 540px;
+    margin: auto;
+    margin-top: 55px;
+    border-radius: 30px;
+    text-align: center;
+    font: 19px arial black;
+}
+
+.table3 {
+    color: #7C7C83;
+    border: 0px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.menustyle {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.ecchi100 {
+    opacity: 0.6;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 150px;
+}
+
+.ecchi100:hover {
+    opacity: 1.0;
+}
+
+.note {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}

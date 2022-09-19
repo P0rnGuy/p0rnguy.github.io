@@ -1,0 +1,80 @@
+.audio {
+    position: absolute;
+    top: 20px;
+    width: 100px;
+    right: 50px;
+}
+
+.imgcat {
+    opacity: 0.6;
+    width: 190px;
+    padding: 5px;
+    outline: none;
+}
+
+.imgcat:hover {
+    opacity: 1.0;
+    outline: none;
+}
+
+.imgcat1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.imgcat2 {
+    margin-bottom: 20px;
+    margin-left: -70px;
+    outline: none;
+}
+
+.imgcat3 {
+    padding: 5px;
+    outline: none;
+}
+
+.imgcat4 {
+    opacity: 0.6;
+    margin-top: 25px;
+    margin-left: 125px;
+    outline: none;
+}
+
+.imgcat4:hover {
+    opacity: 1.0;
+    outline: none;
+}
+
+.menustyle {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.note {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    outline: none;
+}
+
+.ecchi100 {
+    opacity: 0.6;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 150px;
+    outline: none;
+}
+
+.ecchi100:hover {
+    opacity: 1.0;
+    outline: none;
+}
+
+#table2 {
+    border: 0px;
+    align: center;
+    margin: auto;
+}

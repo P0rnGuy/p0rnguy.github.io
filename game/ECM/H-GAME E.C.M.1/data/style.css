@@ -1,0 +1,30 @@
+.audio {
+    position: absolute;
+    top: 20px;
+    width: 100px;
+    right: 50px;
+}
+
+.imgup {
+    opacity: 0.6;
+    width: 90%;
+    outline: none;
+}
+
+.imgup:hover {
+    opacity: 1.0;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: #20d2e7;
+}
+
+a:hover {
+    color: #20d2e7;
+}
+
+a:visited {
+    color: #20d2e7;
+}
