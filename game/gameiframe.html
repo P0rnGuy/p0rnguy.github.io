@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .go-home {
+            position: fixed;
+            /* 设置fixed固定定位 */
+            bottom: 20px;
+            /* 距离浏览器窗口下边框20px */
+            right: 20px;
+            /* 距离浏览器窗口右边框20px */
+        }
+
+        .go-home a {
+            display: block;
+            /* 将<a>标签设为块元素，用于美化样式 */
+            text-decoration: none;
+
+        }
+    </style>
+</head>
+
+<body>
+    <script type="text/javascript" src="../js/homebutton.js"></script>
+    <center>
+        <iframe src="../gamesite.html" frameborder="0" id="iframepage" onload="changeFrameHeight()"
+            scrolling="auto"></iframe>
+        <script>
+            function changeFrameHeight() {
+                var ifm = document.getElementById("iframepage");
+                ifm.height = document.documentElement.clientHeight;
+                ifm.width = document.documentElement.clientWidth;
+            }
+            window.onresize = function () {
+                changeFrameHeight();
+                changeHomeWidth();
+            }
+
+            function changeHomeWidth() {
+                var hbtn = document.getElementById("homebutton");
+                hbtn.width = document.documentElement.clientWidth * 0.0390625;
+            }
+        </script>
+    </center>
+    <div class="go-home">
+        <a href="../game/gameiframe.html"><img src="../../images/home.png" id="homebutton"
+                onload="changeHomeWidth()"></a>
+    </div>
+</body>
+
+</html>s
